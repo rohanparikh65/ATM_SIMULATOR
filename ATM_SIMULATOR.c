@@ -63,12 +63,12 @@ int main()
             break;
 
 		case 5:
-			printf("\n THANK U USING ATM");
+			printf("\n THANK YOU FOR USING THE ATM");
 			break;
 		default:
 			printf("\n INVALID CHOICE");
 		}
-		printf("\n\n\n DO U WISH TO HAVE ANOTHER TRANSCATION?(y/n): \n");
+		printf("\n\n\n DO YOU WISH TO HAVE ANOTHER TRANSCATION?(y/n): \n");
 		fflush(stdin);
 		scanf("%c", &transaction);
 		if (transaction == 'n'|| transaction == 'N')
